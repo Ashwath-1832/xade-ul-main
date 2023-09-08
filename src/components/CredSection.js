@@ -18,12 +18,12 @@ const App = () => {
         </div>
       </div>
       <div class="right-half" style={{}}>
-        <img className='credimg' src = {process.env.PUBLIC_URL + '/Media/payments.png'}></img>
+        <img className='credimg' src = {process.env.PUBLIC_URL + '/Media/payments.png'} alt="payment image"></img>
       </div>
     </section>
     <section class="container" id='container2' >
         <div class="left-half" >
-          <img className='credimg' src='https://res.cloudinary.com/xade-finance/image/upload/v1684697496/payments-4_tmxt1z.png'></img>
+          <img className='credimg' src='https://res.cloudinary.com/xade-finance/image/upload/v1684697496/payments-4_tmxt1z.png' alt="image"></img>
         </div>
         <div class="right-half" >
           <div className="line2" style={{ textAlign: 'left'}}>
@@ -49,11 +49,11 @@ const App = () => {
           </div>
         </div>
         <div class="right-half">
-          <img className='credimg' src='https://res.cloudinary.com/xade-finance/image/upload/v1684697594/Mask_group-13_rnxtfy.png'></img>
+          <img className='credimg' src='https://res.cloudinary.com/xade-finance/image/upload/v1684697594/Mask_group-13_rnxtfy.png' alt='image'></img>
         </div>
       </section></><section class="container"  id='container4'>
         <div class="left-half" >
-          <img className='credimg' src='https://res.cloudinary.com/xade-finance/image/upload/v1684697495/payments-3_ccnbii.png'></img>
+          <img className='credimg' src='https://res.cloudinary.com/xade-finance/image/upload/v1684697495/payments-3_ccnbii.png' alt='image'></img>
 
         </div>
         <div class="right-half" >

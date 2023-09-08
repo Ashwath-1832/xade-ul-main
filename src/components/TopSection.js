@@ -28,7 +28,7 @@ export default function TopSection() {
               href="https://bit.ly/xadefinance"
               style={{ textDecoration: "none", color:'#5AF698'}}
             >
-              <img src = {process.env.PUBLIC_URL + '/Media/i1.png'} style = {{marginRight: '0.7rem', height:'1.2rem', marginBottom: '4px'}}/>
+              <img src = {process.env.PUBLIC_URL + '/Media/i1.png'} style = {{marginRight: '0.7rem', height:'1.2rem', marginBottom: '4px'}} alt="media image"/>
               Get Started
             </a>
           </div>
@@ -37,7 +37,7 @@ export default function TopSection() {
               href="https://medium.com/@XadeFinance/what-is-xade-and-why-do-you-need-it-b483f46ba5a1"
               style={{ textDecoration: "none", color:'#E3E3E3' ,      opacity: 0.699999988079071}}
             >
-                <img src = {process.env.PUBLIC_URL + '/Media/File_dock_fill.png'} style = {{marginRight: '0.7rem', height:'1.2rem', marginBottom: '4px'}}/>
+                <img src = {process.env.PUBLIC_URL + '/Media/File_dock_fill.png'} style = {{marginRight: '0.7rem', height:'1.2rem', marginBottom: '4px'}} alt="about us image"/>
               Read About Us
             </a>
           </div>

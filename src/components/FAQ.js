@@ -65,10 +65,10 @@ export default function FAQ() {
       </div>
       <div className="download" style={{flexDirection:'row',justifyContent:'space-evenly',display: "flex",width: '50%',marginLeft:'25%',marginTop:'5%'}}>
         <a href="https://play.google.com/store/apps/details?id=com.org.xadefinance">
-          <img src="/Media/Group.png" style={{width:'90%'}} />
+          <img src="/Media/Group.png" style={{width:'90%'}} alt="Google play image"/>
         </a>
         <a href="https://testflight.apple.com/join/ppdLa9dl">
-          <img src="/Media/appstore.png" style={{width:'90%'}} />
+          <img src="/Media/appstore.png" style={{width:'90%'}} alt="AppStore image" />
         </a>
       </div>
     </>

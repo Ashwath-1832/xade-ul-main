@@ -45,7 +45,7 @@ function App() {
         id="apph"
         style={{ fontFamily: "Benzin-Bold", color: "#fff" }}
       >
-        <h1>The Decentralised Bank</h1>
+        <h2>The Decentralised Bank</h2>
       </div>
 
       <div

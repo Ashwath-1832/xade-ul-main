@@ -19,9 +19,8 @@ const App = () => {
       <div className="boxgfather">
         <div className="boxfather">
       <div className="betterbox betterbox1">
-        <div className="ellipse2">
-        <img src={process.env.PUBLIC_URL + '/Media/b1.png'} alt="Image" />
-
+        <div className="ellipse2"> 
+        <img src={process.env.PUBLIC_URL + '/Media/b1.png'} alt="Image" /> 
         </div>
         <div className="headerText"><span>Made for the real world use-cases</span></div>
         <hr className="line1" />

@@ -25,7 +25,7 @@ export default function Header() {
               }}
             >
               <div>
-                <img src={process.env.PUBLIC_URL+"/Media/Menu.svg"}/>
+                <img src={process.env.PUBLIC_URL+"/Media/Menu.svg"} alt="menu image"/>
               </div>
               {/* <i className="fa-solid fa-bars-sort text-white" /> */}
               <span data-feather="grid" />
