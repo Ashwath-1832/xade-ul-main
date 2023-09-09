@@ -1,4 +1,3 @@
-
 import "../styles/better.css";
 
 import React, {useState, useEffect, useRef} from 'react'

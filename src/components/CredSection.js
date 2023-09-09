@@ -60,7 +60,7 @@ const App = () => {
           <div className="line2" style={{ textAlign: 'left' }}>
             <div style={{ fontFamily: 'Benzin-Medium', fontSize: '0.6rem', letterSpacing: '10px', color: '#40CEFF' }}><span>INSTANT LOANS </span></div>
             <div style={{ fontSize: '2rem', fontWeight: 500, lineHeight: 1.2, fontFamily: 'Benzin-Bold' }}>
-             <h3>FINANCE YOUR LOANS EASILY AND INSTANTLY</h3>
+             <h3 >FINANCE YOUR LOANS EASILY AND INSTANTLY</h3>
             </div>
             <div style={{ fontSize: '1rem', fontFamily: 'Regular' }}>
              <span> Finance your real world loans such as EMIs or Mortgages or against ERC-20 Tokens in various manners with no paperwork powered by SabeX. </span>

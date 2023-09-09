@@ -63,7 +63,6 @@ function App() {
       <CardSection></CardSection>
 
       <BetterSection />
-      <CoinSection />
       <NFT />
 
       <Stats />
