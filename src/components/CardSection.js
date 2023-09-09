@@ -38,7 +38,7 @@ const App = () => {
         className="header"
         style={{ fontFamily: "NeueMontreal-Bold", color: "#fff" }}
       >
-        <h2>Get yourself the Xade card</h2>
+        <h2 style={{fontSize: '43.2px'}}>Get yourself the Xade card</h2>
       </div>
       <br />
       <div

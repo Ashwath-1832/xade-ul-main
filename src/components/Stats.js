@@ -9,7 +9,7 @@ const App = () => {
       {/* </div> */}
       <div className="header">
         {" "}
-        <h2>Current stats </h2>{" "}
+        <h2 style={{fontSize: '43.2px'}}>Current stats </h2>{" "}
       </div>
       <br />
       <div

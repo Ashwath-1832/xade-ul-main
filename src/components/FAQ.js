@@ -6,10 +6,10 @@ export default function FAQ() {
   return (
     <>
       <div id="FAQ-Section" className="faqs">
-        <div className="faqmain"><h2>Frequently asked questions</h2></div>
+        <div className="faqmain"><h2 style={{fontSize: '60px'}}>Frequently asked questions</h2></div>
         <br></br>
         <div className="faqbox">
-          <div className="faqhead"><h2>What is Xade?</h2></div>
+          <div className="faqhead"><h2 style={{fontSize: '50px'}}>What is Xade?</h2></div>
           <div className="faqcontent">
             <span>
             Xade is the one stop solution for all your finances where all
@@ -18,7 +18,7 @@ export default function FAQ() {
           </div>
         </div>
         <div className="faqbox">
-          <div className="faqhead"><h2>How safe is Xade?</h2></div>
+          <div className="faqhead"><h2 style={{fontSize: '50px'}}>How safe is Xade?</h2></div>
           <div className="faqcontent">
             <span>
             Xade is compeletely non-custodial and decentralised where all
@@ -27,7 +27,7 @@ export default function FAQ() {
           </div>
         </div>
         <div className="faqbox">
-          <div className="faqhead"><h2>How is Xade different from banks?</h2></div>
+          <div className="faqhead"><h2 style={{fontSize: '50px'}}>How is Xade different from banks?</h2></div>
           <div className="faqcontent">
             <span>
             Xade is compeletely autonomous with no human involvement while
@@ -37,7 +37,7 @@ export default function FAQ() {
         </div>
         <div className="faqbox">
           <div className="faqhead">
-           <h2> How is Xade different from DeFi protocols?</h2>
+           <h2 style={{fontSize: '50px'}}> How is Xade different from DeFi protocols?</h2>
           </div>
           <div className="faqcontent"><span>
             Xade provides an easy to use and familiar user experience of a
@@ -46,7 +46,7 @@ export default function FAQ() {
           </div>
         </div>
         <div className="faqbox">
-          <div className="faqhead"><h2>What is Xade Mainnet Beta?</h2></div>
+          <div className="faqhead"><h2 style={{fontSize: '50px'}}>What is Xade Mainnet Beta?</h2></div>
 
           <div className="faqcontent"><span>
             XADE Mainnet Beta is a beta mainnet launch for Xade Finance to get feedback about the
@@ -57,7 +57,7 @@ export default function FAQ() {
       </div>
       <BlogSection/>
       <div className="header"style = {{marginTop:"5%"}}>
-     <h2> Join the revolution </h2>
+     <h2 style={{fontSize: '43.2px'}}> Join the revolution </h2>
       </div>
       <br />
       <div className="topText"style = {{color:"#5AF698",fontsize:"0.1rem"}}>

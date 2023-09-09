@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="lol">
       <div className="header" style={{marginTop:'5%'}}>
-     <h2>The Hybrid Solution</h2>
+     <h2 style={{fontSize: '43.2px'}}>The Hybrid Solution</h2>
       </div>
       <br />
       <div className="topText">

@@ -8,7 +8,7 @@ const Security = () => {
                 <br />
                 <br />
                 <div className="header" style={{ fontSize: "3rem" }}>
-                   <h2>Your security is our priority</h2>
+                   <h2 style={{fontSize: '48px'}}>Your security is our priority</h2>
                 </div>
                 <br />
                 <div className="topText" style={{ fontSize: '1.3rem', marginBottom: '2rem' }}>
