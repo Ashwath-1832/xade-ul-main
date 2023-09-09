@@ -24,6 +24,10 @@
   color: white;
 }
 
+.topSection {
+  background-image: url("/public/Media/new\ bg.png");
+}
+
 .App-link {
   color: #61dafb;
 }

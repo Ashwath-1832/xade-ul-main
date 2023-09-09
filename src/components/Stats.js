@@ -9,14 +9,17 @@ const App = () => {
       {/* </div> */}
       <div className="header">
         {" "}
-        <h2 style={{fontSize: '43.2px'}}>Current stats </h2>{" "}
+        <h2 style={{ fontSize: "43.2px" }}>Current stats </h2>{" "}
       </div>
       <br />
       <div
         className="topText"
         style={{ fontSize: "1.2rem", marginBottom: "0rem", color: "grey" }}
       >
-       <span> Xade community is growing fast. Look at what we've already achieved{" "}</span>
+        <span>
+          {" "}
+          Xade community is growing fast. Look at what we've already achieved{" "}
+        </span>
         <br></br>
         {/* <div style = {{width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', paddingBottom: '5rem', color: 'white'}}><a href = "https://mint.xade.finance" className = "buttonstuff">Apply for Card</a>   </div>    */}
       </div>
@@ -58,6 +61,8 @@ const App = () => {
               <p className="bettercontent" style={{ color: "#7b7b7b" }}>
                 Daily active users
               </p>
+              <br />
+              <br />
             </div>
           </div>
         </div>

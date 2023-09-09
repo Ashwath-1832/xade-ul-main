@@ -1,7 +1,6 @@
-.header { 
-   
-    font-family: NeueMontreal-Bold;
-    text-align: center;
+.header {
+  font-family: NeueMontreal-Bold;
+  text-align: center;
 }
 
 .header h1 {
@@ -9,17 +8,13 @@
   margin-bottom: 0px;
 }
 
-
-
-
-
 .topText {
-    padding: 0% 25%;
-    font-size: 1.2rem;
-    font-family: NeueMontreal-Medium;
-    text-align: center;
-    color: rgb(255, 255, 255)    ;
-    color:#949494;
+  padding: 0% 25%;
+  font-size: 1.2rem;
+  font-family: NeueMontreal-Medium;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  color: #949494;
 }
 
 .blogContainer {
@@ -32,7 +27,7 @@
   border-style: none;
 }
 .CardbuttonContainer button {
-  background-color: #2D2D2D;
+  background-color: #2d2d2d;
   border-style: none;
   font-weight: bold;
   color: white;
@@ -53,7 +48,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 .boxgfather {
   display: flex;
@@ -85,20 +79,28 @@
 }
 
 .betterbox1 {
-  background: linear-gradient(113.01deg, #8C46FF -2.72%, #B080FF 111.29%);
+  background: linear-gradient(113.01deg, #8c46ff -2.72%, #b080ff 111.29%);
   background-image: url(https://res.cloudinary.com/xade-finance/image/upload/v1684747054/Real_world_use_pgdual.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .betterbox2 {
   background-image: url(https://res.cloudinary.com/xade-finance/image/upload/v1684747065/Group_45_jkcruk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .betterbox3 {
   background-image: url(https://res.cloudinary.com/xade-finance/image/upload/v1684747054/Real_world_use-2_s95o6o.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .betterbox4 {
   background-image: url(https://res.cloudinary.com/xade-finance/image/upload/v1684747065/Group_46_qfdwro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .betterbox5 {
@@ -126,7 +128,6 @@
   width: 27%;
   height: 33rem;
 }
-
 
 .betterbox6 .headerText {
   text-align: left;
@@ -210,32 +211,29 @@
   font-family: SemiBold;
 }
 
-  .blogvtbutton {
-    display: none;
-    flex-direction: row;
-    justify-content: center;
-    
-  }
-
-  .blogvtbutton .bvtb1 {
-    background-color: #6262625c;
-    padding-top: 5px;
-    border-radius: 90px;
-    border-style: none;
-    margin-right: 10px;
-    padding: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-left: 6px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-right: 3px;
+.blogvtbutton {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
 }
 
+.blogvtbutton .bvtb1 {
+  background-color: #6262625c;
+  padding-top: 5px;
+  border-radius: 90px;
+  border-style: none;
+  margin-right: 10px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+}
 
-  .buttonstuff {
-
+.buttonstuff {
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -345,68 +343,67 @@
   transform: scaleX(-1);
 }
 
-
 @media (min-width: 768px) {
   .buttonstuff {
     padding: 13px 50px 13px;
   }
 }
 
-  .imagecard {
-    width:50%;
+.imagecard {
+  width: 50%;
 }
 @font-face {
-    font-family: NeueMontreal-Bold;
-    src: url("NeueMontreal-Bold.otf");
+  font-family: NeueMontreal-Bold;
+  src: url("NeueMontreal-Bold.otf");
+}
+
+@font-face {
+  font-family: NeueMontreal-Medium;
+  src: url("NeueMontreal-Medium.otf");
+}
+
+@font-face {
+  font-family: NeueMontreal-Regular;
+  src: url("NeueMontreal-Regular.otf");
+}
+
+@font-face {
+  font-family: Cred;
+  src: url("FontsFree-Net-Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: Benzin-Medium;
+  src: url("benzin-medium.ttf");
+}
+
+@font-face {
+  font-family: NeueMontreal-Light;
+  src: url("benzin-medium.ttf");
+}
+
+@media screen and (max-width: 800px) {
+  .betterbox {
+    width: 90vw;
+    margin: 1rem 0 0 0;
   }
 
-  @font-face {
-    font-family: NeueMontreal-Medium;
-    src: url("NeueMontreal-Medium.otf");
+  .expanded {
+    width: 100%;
   }
 
-  @font-face {
-    font-family: NeueMontreal-Regular;
-    src: url("NeueMontreal-Regular.otf");
+  .imagecard {
+    width: 90%;
   }
 
-  @font-face {
-    font-family: Cred;
-    src: url("FontsFree-Net-Gilroy-Bold.ttf");
+  .topText {
+    padding: 0% 5%;
   }
 
-  @font-face {
-    font-family: Benzin-Medium;
-    src: url("benzin-medium.ttf");
+  .header {
+    padding: 0 2%;
   }
-
-  @font-face {
-    font-family: NeueMontreal-Light;
-    src: url("benzin-medium.ttf");
-  }
-
-  @media screen and (max-width: 800px) {
-    .betterbox {
-        width: 90vw;
-        margin: 1rem 0 0 0;
-    }
-
-    .expanded {
-        width: 100%;
-    }
-
-    .imagecard {
-        width: 90%;
-    }
-
-    .topText {
-        padding: 0% 5%;
-    }
-
-    .header {
-        padding: 0 2%;
-    }
-  }
+}
 .button-52 {
   font-size: 16px;
   font-weight: 200;
@@ -438,12 +435,12 @@
   top: 0px;
   left: 0px;
 }
-@media(max-width:1415px) and (min-width: 767px) {
-  .readNowImg{
+@media (max-width: 1415px) and (min-width: 767px) {
+  .readNowImg {
     display: none;
   }
 }
-@media (max-width: 768px)  and (min-width: 414px){
+@media (max-width: 768px) and (min-width: 414px) {
   .button-52 {
     padding: 13px 50px 13px;
   }
@@ -453,15 +450,12 @@
   .blogvtbutton {
     display: flex;
   }
-  .betterbox6:nth-of-type(2){
+  .betterbox6:nth-of-type(2) {
     display: none;
   }
-
 }
 
-
-
-@media (max-width: 415px) and (min-width: 30px){
+@media (max-width: 415px) and (min-width: 30px) {
   .readNowImg img {
     display: none;
   }
@@ -475,12 +469,11 @@
     display: flex;
   }
 
-  .betterbox6:nth-of-type(2){
+  .betterbox6:nth-of-type(2) {
     display: none;
   }
 
   .blogContainer {
     justify-content: center;
+  }
 }
-}
-

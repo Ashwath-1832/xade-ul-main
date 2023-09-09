@@ -2,51 +2,108 @@ import React from "react";
 import "../styles/style.css";
 // import video from "../assets/Video.mp4";
 
-
-
 export default function TopSection() {
   return (
     <>
-      <div className="video-container">
-        {/* <video autoPlay={true} muted={true} loop={true}> */}
-          {/* <source src={video} type="video/mp4" /> */}
-        {/* </video> */}
-        <div className="leftsection"style = {{marginTop:"5%"}}>
-        <div className="header3" style = {{fontFamily: 'Benzin-Medium'}}>PUBLIC MAINNET IS LIVE </div>
-          <div className="header1" role="heading" aria-level="1" style = {{fontFamily: 'Benzin-Bold'}}><h1>INTRODUCING A NEW ERA OF FINANCE</h1></div>
+      <div
+        style={{
+          // marginTop: "7%",
+          width: "100%",
+          height: "100vh",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <div
+          style={{
+            backgroundImage: 'url("/Media/BGleft.png")',
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "auto",
+            backgroundPosition: "left center",
+            position: "absolute", // Position the pseudo-element
+            top: 0, // Adjust as needed
+            left: 0, // Adjust as needed
+            width: "100%", // Adjust as needed
+            height: "100%",
+          }}
+        ></div>
 
-          <div className="subhead2" style = {{ color:"#B3C5BB"}}>
-            <span>
-          Meet the world’s first financial app powered by DeFi protocols that provides banking services on-chain.</span>
+        <div
+          style={{
+            backgroundImage: 'url("/Media/newbg.png")',
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "auto",
+            backgroundPosition: "right center",
+            position: "absolute", // Position the pseudo-element
+            top: 0, // Adjust as needed
+            left: 0, // Adjust as needed
+            width: "100%", // Adjust as needed
+            height: "100%",
+          }}
+        ></div>
+        {/* <video autoPlay={true} muted={true} loop={true}> */}
+        {/* <source src={video} type="video/mp4" /> */}
+        {/* </video> */}
+        <div style={{ position: "relative" }}>
+          <div
+            role="heading"
+            aria-level="1"
+            style={{
+              fontFamily: "Euclid Circular A-Light",
+              textAlign: "center",
+              fontStyle: "normal",
+              width: "45rem",
+            }}
+          >
+            <h1
+              style={{
+                lineHeight: "normal",
+                marginBottom: "7%",
+                fontWeight: "lighter",
+                fontSize: "5rem",
+              }}
+            >
+              Reshaping the future of
+              <span
+                style={{
+                  fontFamily: "PPEditorialNew-Italic",
+                  // fontStyle: "italic",
+                  fontWeight: "lighter",
+                }}
+              >
+                {" "}
+                Finance.
+              </span>
+            </h1>
+          </div>
+
+          <div
+            style={{
+              color: "#B3C5BB",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <span
+              style={{
+                width: "50rem",
+                textAlign: "center",
+                fontSize: "1.5rem",
+              }}
+            >
+              Meet the world’s first financial app powered by DeFi protocols
+              that provides banking services on-chain
+            </span>
           </div>
           <br />
           {/* <br />
           <br /> */}
           <br />
-          <div className="button89"style = {{paddingBottom: 25,paddingLeft : 0, marginRight: '2.7rem',color:'#5AF698'}}>
-            <a
-              href="https://bit.ly/xadefinance"
-              style={{ textDecoration: "none", color:'#5AF698'}}
-            >
-              <img src = {process.env.PUBLIC_URL + '/Media/i1.png'} style = {{marginRight: '0.7rem', height:'1.2rem', marginBottom: '4px'}} alt="media image"/>
-              Get Started
-            </a>
-          </div>
-          <div className="button89" id="ras" style = {{paddingLeft : 0,paddingBottom:25}} >
-            <a
-              href="https://medium.com/@XadeFinance/what-is-xade-and-why-do-you-need-it-b483f46ba5a1"
-              style={{ textDecoration: "none", color:'#E3E3E3' ,      opacity: 0.699999988079071}}
-            >
-                <img src = {process.env.PUBLIC_URL + '/Media/File_dock_fill.png'} style = {{marginRight: '0.7rem', height:'1.2rem', marginBottom: '4px'}} alt="about us image"/>
-              Read About Us
-            </a>
-          </div>
         </div>
-      <div style = {{color: 'white'}} id="rightsection" className="rightsection">
-        <img src = {process.env.PUBLIC_URL + '/Media/Group 29.png'} draggable="false" alt="xade"/>
       </div>
-      </div>
-      <br/>
+      <br />
     </>
   );
 }
