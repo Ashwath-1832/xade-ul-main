@@ -62,10 +62,12 @@ function App() {
       <CredSection />
       <CardSection></CardSection>
 
+      <Stats />
+
       <BetterSection />
       <NFT />
 
-      <Stats />
+      
       <Security />
       <FAQ />
 
