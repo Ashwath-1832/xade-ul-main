@@ -56,7 +56,7 @@ const App = () => {
         <button
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://forms.gle/DsptyteisKfaqbRX8", "_blank");
+            window.open("https://tally.so/r/wbjzRE", "_blank");
           }}
         >
           Apply for card

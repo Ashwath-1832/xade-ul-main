@@ -6,7 +6,7 @@ export default function TopSection() {
   return (
     <>
       <div
-        className="TopContainer"
+        className="topContainer"
         style={{
           // marginTop: "7%",
           width: "100%",

@@ -4,8 +4,11 @@ import "../styles/style.css";
 export default function Header() {
   return (
     <>
-      <section className="smart-scroll"style={{background:"rgba(0,0,0,0.75"}}>
-        <div className="container-fluid" >
+      <section
+        className="smart-scroll"
+        style={{ background: "rgba(0,0,0,0.75" }}
+      >
+        <div className="container-fluid">
           <nav className="navbar navbar-expand-md navbar-dark">
             <a className="navbar-brand heading-black" href="#">
               <div className="name">XADE</div>
@@ -18,14 +21,18 @@ export default function Header() {
               aria-controls="navbarCollapse"
               aria-expanded="false"
               aria-label="Toggle navigation"
-              style={{background:"black"}}
-              onClick = {() => {
-                const navbarCollapse = document.getElementById('navbarCollapse');
-                navbarCollapse.classList.toggle('show');
+              style={{ background: "black" }}
+              onClick={() => {
+                const navbarCollapse =
+                  document.getElementById("navbarCollapse");
+                navbarCollapse.classList.toggle("show");
               }}
             >
               <div>
-                <img src={process.env.PUBLIC_URL+"/Media/Menu.svg"} alt="menu image"/>
+                <img
+                  src={process.env.PUBLIC_URL + "/Media/Menu.svg"}
+                  alt="menu image"
+                />
               </div>
               {/* <i className="fa-solid fa-bars-sort text-white" /> */}
               <span data-feather="grid" />
@@ -39,13 +46,19 @@ export default function Header() {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="https://docs.xade.finance/" className="nav-link page-scroll">
+                    <a
+                      href="https://docs.xade.finance/"
+                      className="nav-link page-scroll"
+                    >
                       Docs
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="http://explorers.xade.finance/" className="nav-link page-scroll">
-                      Premium
+                    <a
+                      href="http://explorers.xade.finance/"
+                      className="nav-link page-scroll"
+                    >
+                      Explorers
                     </a>
                   </li>
                   <li className="nav-item">
@@ -65,11 +78,13 @@ export default function Header() {
                       href="https://discord.gg/VxuKdRRzmN"
                       rel="noreferrer"
                     >
-                      <div className="tack"style={{fontFamily:'Regular'}}>Community</div>
+                      <div className="tack" style={{ fontFamily: "Regular" }}>
+                        Community
+                      </div>
                     </a>
                   </li>
                   &nbsp; &nbsp;
-                  <li className="webapp"style={{fontFamily:'Regular'}}>
+                  <li className="webapp" style={{ fontFamily: "Regular" }}>
                     <a
                       className="nav-link page-scroll"
                       target="_blank"

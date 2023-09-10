@@ -359,6 +359,19 @@ section#container4 .right-half .line2 {
 	}
   
 } */
+.custom-background {
+  background: var(
+    --linnn,
+    linear-gradient(113deg, #8c46ff -2.72%, #b080ff 111.29%)
+  );
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 10px;
+    line-height: 50px;
+  }
+}
 
 @mixin white-gradient {
   background: linear-gradient(
@@ -432,4 +445,30 @@ section#container4 .right-half .line2 {
     height: 100px;
     width: 250px;
   }
+}
+
+.gradient5 {
+  background: var(
+    --blue,
+    linear-gradient(125deg, #4663ff 29.47%, #87d4ff 130.56%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient1 {
+  background: var(
+    --linnn,
+    linear-gradient(113deg, #8c46ff -2.72%, #b080ff 111.29%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient2 {
+  background: linear-gradient(90deg, #ff926b 35.62%, #f88a74 127.99%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
