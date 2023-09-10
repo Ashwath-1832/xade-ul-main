@@ -107,7 +107,7 @@ const App = () => {
                   fontFamily: "Benzin-Medium",
                   fontSize: "0.6rem",
                   letterSpacing: "10px",
-                  color: "rgb(232, 109, 111)",
+                  color: "#40CEFF",
                 }}
               >
                 <span>PRO TRADING </span>
@@ -121,15 +121,15 @@ const App = () => {
                 }}
               >
                 <h3 style={{ fontSize: "32px", lineHeight: "1.2" }}>
-                  TRADE ANYTHING WITH 10X LEVERAGE
+                  FINANCE YOUR LOANS EASILY AND INSTANTLY
                 </h3>
               </div>
               <div style={{ fontSize: "1rem", fontFamily: "Regular" }}>
                 <span>
                   {" "}
-                  Go Long or Short with upto 10x leverage on stocks, crypto,
-                  forex and more powered by DeriveX with almost guranteed
-                  liquidity and improved risk engines.
+                  Finance your real world loans such as EMIs or Mortgages or
+                  against ERC-20 Tokens in various manners with no paperwork
+                  powered by SabeX.
                 </span>{" "}
               </div>
             </div>
@@ -137,7 +137,7 @@ const App = () => {
           <div class="right-half">
             <img
               className="credimg"
-              src="/Media/investments.png"
+              src="https://res.cloudinary.com/xade-finance/image/upload/v1684697495/payments-3_ccnbii.png"
               alt="image"
             ></img>
           </div>
@@ -147,7 +147,7 @@ const App = () => {
         <div class="left-half">
           <img
             className="credimg"
-            src="https://res.cloudinary.com/xade-finance/image/upload/v1684697495/payments-3_ccnbii.png"
+            src="/Media/investments.png"
             alt="image"
           ></img>
         </div>
@@ -158,7 +158,7 @@ const App = () => {
                 fontFamily: "Benzin-Medium",
                 fontSize: "0.6rem",
                 letterSpacing: "10px",
-                color: "#40CEFF",
+                color: "rgb(232, 109, 111)",
               }}
             >
               <span>INSTANT LOANS </span>
@@ -172,15 +172,15 @@ const App = () => {
               }}
             >
               <h3 style={{ fontSize: "32px", lineHeight: "1.2" }}>
-                FINANCE YOUR LOANS EASILY AND INSTANTLY
+                TRADE ANYTHING WITH 10X LEVERAGE
               </h3>
             </div>
             <div style={{ fontSize: "1rem", fontFamily: "Regular" }}>
               <span>
                 {" "}
-                Finance your real world loans such as EMIs or Mortgages or
-                against ERC-20 Tokens in various manners with no paperwork
-                powered by SabeX.{" "}
+                Go Long or Short with upto 10x leverage on stocks, crypto, forex
+                and more powered by DeriveX with almost guranteed liquidity and
+                improved risk engines.{" "}
               </span>
             </div>
             <br></br>

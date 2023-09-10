@@ -60,7 +60,7 @@ function App() {
         </span>
       </div>
       <CredSection />
-      <CardSection></CardSection>
+      {/* <CardSection></CardSection> */}
 
       <NFT />
       <BetterSection />
