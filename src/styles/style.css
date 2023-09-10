@@ -126,6 +126,11 @@ section {
 }
 
 @font-face {
+  font-family: Euclid CircularA-Medium;
+  src: url(./Euclid\ CircularA-Medium.ttf);
+}
+
+@font-face {
   font-family: PPEditorialNew-Italic;
   src: url(./PPEditorialNew-Italic.otf);
 }

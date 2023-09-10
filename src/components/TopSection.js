@@ -6,6 +6,7 @@ export default function TopSection() {
   return (
     <>
       <div
+        className="TopContainer"
         style={{
           // marginTop: "7%",
           width: "100%",
@@ -88,7 +89,8 @@ export default function TopSection() {
           >
             <span
               style={{
-                width: "50rem",
+                fontFamily: "Euclid CircularA-Medium",
+                width: "40rem",
                 textAlign: "center",
                 fontSize: "1.5rem",
               }}
