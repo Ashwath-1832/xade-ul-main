@@ -40,6 +40,25 @@
   font-size: large;
 }
 
+.NFTbutton {
+  background-color: #fff;
+  border-style: none;
+  font-weight: bold;
+  color: #000;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 25px;
+  padding-left: 25px;
+  align-items: center;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .CardbuttonContainer {
   align-items: center;
   height: 61px;

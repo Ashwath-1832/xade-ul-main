@@ -16,55 +16,14 @@ export default function TopSection() {
           justifyContent: "center",
         }}
       >
-        <div
-          style={{
-            backgroundImage: 'url("/Media/BGleft.png")',
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "auto",
-            backgroundPosition: "left center",
-            position: "absolute", // Position the pseudo-element
-            top: 0, // Adjust as needed
-            left: 0, // Adjust as needed
-            width: "100%", // Adjust as needed
-            height: "100%",
-          }}
-        ></div>
-
-        <div
-          style={{
-            backgroundImage: 'url("/Media/newbg.png")',
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "auto",
-            backgroundPosition: "right center",
-            position: "absolute", // Position the pseudo-element
-            top: 0, // Adjust as needed
-            left: 0, // Adjust as needed
-            width: "100%", // Adjust as needed
-            height: "100%",
-          }}
-        ></div>
+        <div className="firstSectionimg1"></div>
+        <div className="firstSectionimg2"></div>
         {/* <video autoPlay={true} muted={true} loop={true}> */}
         {/* <source src={video} type="video/mp4" /> */}
         {/* </video> */}
-        <div style={{ position: "relative" }}>
-          <div
-            role="heading"
-            aria-level="1"
-            style={{
-              fontFamily: "Euclid Circular A-Light",
-              textAlign: "center",
-              fontStyle: "normal",
-              width: "45rem",
-            }}
-          >
-            <h1
-              style={{
-                lineHeight: "normal",
-                marginBottom: "7%",
-                fontWeight: "lighter",
-                fontSize: "5rem",
-              }}
-            >
+        <div className="topContainerText">
+          <div role="heading" aria-level="1" className="h1Container">
+            <h1 className="headingTop">
               Reshaping the future of
               <span
                 style={{
@@ -87,14 +46,7 @@ export default function TopSection() {
               justifyContent: "center",
             }}
           >
-            <span
-              style={{
-                fontFamily: "Euclid CircularA-Medium",
-                width: "40rem",
-                textAlign: "center",
-                fontSize: "1.5rem",
-              }}
-            >
+            <span className="subTextH1">
               Meet the world’s first financial app powered by DeFi protocols
               that provides banking services on-chain
             </span>
