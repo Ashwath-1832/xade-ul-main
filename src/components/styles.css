@@ -239,11 +239,11 @@ section#container4 .right-half .line2 {
   border: 1px solid white;
   border-radius: 100px;
   padding: 10px 20px;
-  font-family: Semi;
+  font-family: Euclid CircularA-Medium;
   text-align: center;
   z-index: 100;
-  background-color: black;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .NFTbutton {
   position: relative;

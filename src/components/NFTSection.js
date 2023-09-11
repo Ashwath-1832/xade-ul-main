@@ -57,9 +57,9 @@ const App = () => {
         style={{ fontSize: "1.4rem", marginBottom: "2rem" }}
       >
         <span>
-          Offering you our unique NFT-based subscriptions that give their owners
-          reduced fees, Xade Tokens, exclusive collectibles, a free card and
-          much more{" "}
+          Xade Explorers are a DeFi utility collection which have a max supply
+          of 1000 and allows you to unleash the full potential of the future of
+          finance.{" "}
         </span>
       </div>
       <br></br>
@@ -69,10 +69,7 @@ const App = () => {
           onClick={(e) => {
             console.log("button click");
             e.preventDefault();
-            window.open(
-              "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NGtibGlvZ2hhaGw4c2xvN2xhODliMm5ybGcga2lyYW5hbGV4Y0Bt&tmsrc=kiranalexc%40gmail.com ",
-              "_blank"
-            );
+            window.open("https://explorers.xade.finance/", "_blank");
           }}
         >
           Learn More
