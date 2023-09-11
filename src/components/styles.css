@@ -228,6 +228,25 @@ section#container4 .right-half .line2 {
   justify-content: center;
   align-items: center;
 }
+
+.GetStartedDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.GetStartedbtn {
+  position: relative;
+  z-index: 100;
+  background-color: white;
+  color: black;
+  padding: 10px 35px;
+  border-radius: 30px;
+  cursor: pointer;
+  min-width: 250px;
+  font-weight: bolder;
+}
 .NFTbutton {
   position: relative;
   z-index: 100;

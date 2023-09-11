@@ -14,6 +14,7 @@ export default function TopSection() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          flexDirection: "column",
         }}
       >
         <div className="firstSectionimg1"></div>
@@ -52,9 +53,18 @@ export default function TopSection() {
             </span>
           </div>
           <br />
-          {/* <br />
-          <br /> */}
-          <br />
+        </div>
+        <div className="GetStartedDiv">
+          <button
+            className="GetStartedbtn"
+            onClick={(e) => {
+              console.log("button click");
+              e.preventDefault();
+              window.open("https://app.xade.finance/app.html", "_blank");
+            }}
+          >
+            Get Started
+          </button>
         </div>
       </div>
       <br />
