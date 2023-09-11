@@ -45,7 +45,9 @@ function App() {
         id="apph"
         style={{ fontFamily: "Benzin-Bold", color: "#fff" }}
       >
-        <h2 style={{ fontSize: "43.2px" }}>The Decentralised Bank</h2>
+        <h2 style={{ fontSize: "2.5rem", textAlign: "center" }}>
+          The Decentralised Bank
+        </h2>
       </div>
 
       <div

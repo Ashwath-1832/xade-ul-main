@@ -48,7 +48,7 @@ const App = () => {
                 </div>
               </div>
             </div>
-            <div class="right-half" style={{}}>
+            <div class="right-half">
               <img
                 className="credimg"
                 src={process.env.PUBLIC_URL + "/Media/Paymentimage1.png"}
@@ -233,7 +233,7 @@ const App = () => {
       <br />
       <br />
 
-      <div style={{ backgroundColor: "black" }}>
+      <div className="Partnersdiv" style={{ backgroundColor: "black" }}>
         <div
           className="header3"
           id="he3"

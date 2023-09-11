@@ -29,7 +29,7 @@ const App = () => {
         ref={imageRef}
         style={{ paddingTop: "120px" }}
       >
-        <div className="exploreBg1"></div>
+        <img src="/Media/exploreBGleft.png" className="exploreBg1" />
         <div>
           <img
             className="ellipseExplore nftParent"
@@ -37,7 +37,7 @@ const App = () => {
             alt="image"
           />
         </div>
-        <div className="exploreBg2"></div>
+        <img src="/Media/exlporeBGright.png" className="exploreBg2" />
         <img
           className={`image ${isExpanded ? "expanded" : ""}`}
           src={process.env.PUBLIC_URL + "/Media/NFT3image.png"}
@@ -49,7 +49,7 @@ const App = () => {
         className="header"
         style={{ paddingTop: "77px", paddingBottom: "57px" }}
       >
-        <img src="/Media/EXPLORERS.svg" />
+        <img src="/Media/EXPLORERS.svg" className="explorerstxt" />
       </div>
       <br />
       <div
@@ -67,6 +67,7 @@ const App = () => {
         <button
           className="NFTbutton"
           onClick={(e) => {
+            console.log("button click");
             e.preventDefault();
             window.open(
               "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NGtibGlvZ2hhaGw4c2xvN2xhODliMm5ybGcga2lyYW5hbGV4Y0Bt&tmsrc=kiranalexc%40gmail.com ",
