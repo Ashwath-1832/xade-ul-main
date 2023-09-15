@@ -315,6 +315,16 @@ const App = () => {
               />
             </div>
             <div class="slide">
+              <a href="https://www.tradingview.com/symbols/TVC-DXY/">
+                <img
+                  src="/Media/TRADINGVIEW.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="slide">
               <img
                 src="https://res.cloudinary.com/xade-finance/image/upload/v1684873941/Untitled_design-6_px1l3a.png"
                 height="100"
